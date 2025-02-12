@@ -5,7 +5,7 @@ import Button from '../theme/button/Button';
 export default () => {
   return (
     <div
-      className={`fixed left-0 top-0 h-full z-50 bg-black min-w-[290px] p-[20px] flex flex-col items-between justify-between`}
+      className={`min-h-screen z-50 bg-black w-[290px] p-[20px] flex flex-col items-between justify-between flex-shrink-0`}
     >
       <div>
         <div className='flex items-center'>

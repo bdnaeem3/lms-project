@@ -5,6 +5,7 @@ import Dashboard from "./Dashboard"
 import DocumentLibrary from "./DocumentLibrary"
 import Events from "./Events"
 import Logout from "./Logout"
+import Notification from "./Notification"
 import Sessions from "./Sessions"
 import Settings from "./Settings"
 import StudentsManagement from "./StudentsManagement"
@@ -27,6 +28,8 @@ export default ({ name, ...rest }) => {
             return <Events {...rest} />
         case 'logout':
             return <Logout {...rest} />
+        case 'notification':
+            return <Notification {...rest} />
         case 'sessions':
             return <Sessions {...rest} />
         case 'settings':

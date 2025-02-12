@@ -1,10 +1,14 @@
+import Header from './components/Header'
 import Sidebar from './components/Sidebar'
 
 function App() {
   return (
-    <>
-      <Sidebar/>
-    </>
+    <main className='flex'>
+      <Sidebar />
+      <div className='w-full'>
+        <Header />
+      </div>
+    </main>
   )
 }
 
