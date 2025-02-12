@@ -1,0 +1,8 @@
+export default ({ color, ...rest }) => (
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" {...rest}>
+        <path d="M7.08268 15.8334H6.66602C3.33268 15.8334 1.66602 15.0001 1.66602 10.8334V6.66675C1.66602 3.33341 3.33268 1.66675 6.66602 1.66675H13.3327C16.666 1.66675 18.3327 3.33341 18.3327 6.66675V10.8334C18.3327 14.1667 16.666 15.8334 13.3327 15.8334H12.916C12.6577 15.8334 12.4077 15.9584 12.2493 16.1667L10.9993 17.8334C10.4493 18.5667 9.54935 18.5667 8.99935 17.8334L7.74935 16.1667C7.61602 15.9834 7.30768 15.8334 7.08268 15.8334Z" stroke={color || "white"} strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M5.83398 6.66675H14.1673" stroke={color || "white"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M5.83398 10.8333H10.834" stroke={color || "white"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+
+)
