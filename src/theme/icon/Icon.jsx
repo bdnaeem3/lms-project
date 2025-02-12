@@ -4,7 +4,9 @@ import Clock from "./Clock"
 import Coversations from "./Coversations"
 import Dashboard from "./Dashboard"
 import DocumentLibrary from "./DocumentLibrary"
+import Ellipsis from "./Ellipsis"
 import Events from "./Events"
+import Info from "./Info"
 import Logout from "./Logout"
 import Notification from "./Notification"
 import Sessions from "./Sessions"
@@ -27,8 +29,12 @@ export default ({ name, ...rest }) => {
             return <Dashboard {...rest} />
         case 'document-library':
             return <DocumentLibrary {...rest} />
+        case 'ellipsis':
+            return <Ellipsis {...rest} />
         case 'events':
             return <Events {...rest} />
+        case 'info':
+            return <Info {...rest} />
         case 'logout':
             return <Logout {...rest} />
         case 'notification':
