@@ -1,5 +1,6 @@
 import DefaultButton from "./DefaultButton"
 import LogoutButton from "./LogoutButton"
+import PrimaryButton from "./PrimaryButton"
 
 export default ({ type, ...rest }) => {
     switch (type) {
@@ -7,6 +8,8 @@ export default ({ type, ...rest }) => {
             return <DefaultButton {...rest} />
         case 'logout':
             return <LogoutButton {...rest} />
+        case 'primary':
+            return <PrimaryButton {...rest} />
         default:
             return null
     }

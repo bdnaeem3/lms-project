@@ -1,12 +1,16 @@
-import Header from './components/Header'
 import Sidebar from './components/Sidebar'
+import Topbar from './components/Topbar'
+import Header from './components/Header'
 
 function App() {
   return (
     <main className='flex'>
       <Sidebar />
       <div className='w-full'>
-        <Header />
+        <Topbar />
+        <div className='p-[25px]'>
+          <Header />
+        </div>
       </div>
     </main>
   )

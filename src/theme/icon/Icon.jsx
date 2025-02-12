@@ -1,3 +1,4 @@
+import AngleDown from "./AngleDown"
 import Calendar from "./Calendar"
 import Clock from "./Clock"
 import Coversations from "./Coversations"
@@ -14,6 +15,8 @@ import Quiz from "./Quiz"
 
 export default ({ name, ...rest }) => {
     switch (name) {
+        case 'angle-down':
+            return <AngleDown {...rest} />
         case 'calendar':
             return <Calendar {...rest} />
         case 'conversations':
