@@ -1,6 +1,7 @@
 import Sidebar from './components/Sidebar'
 import Topbar from './components/Topbar'
 import Header from './components/Header'
+import Heading from './components/Heading'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Topbar />
         <div className='p-[25px]'>
           <Header />
+          <Heading />
         </div>
       </div>
     </main>
