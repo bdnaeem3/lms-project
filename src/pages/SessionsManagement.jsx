@@ -6,9 +6,9 @@ import SessionCard from '../components/card/SessionCard'
 
 export default () => {
   return (
-    <main className='flex'>
+    <main className='flex justify-end'>
       <Sidebar />
-      <div className='w-full'>
+      <div className='w-[calc(100%-290px)]'>
         <Topbar />
         <div className='p-[25px]'>
           <Header />
